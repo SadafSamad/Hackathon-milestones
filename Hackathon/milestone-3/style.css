@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #e6f7ff, #f0f2f5);
+    color: #333333;
+}
+
+form {
+    margin: 50px auto;
+    background: linear-gradient(135deg, #ffffff, #f1f8ff);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    max-width: 700px;
+    color: #1c1c1e;
+    border: 1px solid #3a5a80;
+}
+
+h1 {
+    text-align: center;
+    color: #1e4976;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 2px solid #4c78a8;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #f7fbff;
+}
+
+legend {
+    font-weight: bold;
+    color: #1e4976;
+    font-size: 20px;
+    padding: 0 12px;
+    background-color: #e1e9f1;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(30, 73, 118, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #3d566e;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input, textarea {
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #b0c4d9;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333333;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #336699;
+    box-shadow: 0 0 8px rgba(51, 102, 153, 0.3);
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #1e4976, #34658c);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin-top: 25px;
+    text-align: center;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #163b60, #2d5577);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(52, 101, 140, 0.6); /* Subtle glow effect */
+}
+
+
+#resume-display {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 40px;
+    border: 2px solid #4c78a8;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#resume-display h2 {
+    color: #1e4976;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #a0b8d3;
+    padding-bottom: 10px;
+}
+
+#resume-display p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #3d566e;
+    margin-bottom: 15px;
+}
+
+.resume-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a0b8d3;
+}
+
+.resume-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.resume-title {
+    color: #1e4976;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.resume-content {
+    color: #3d566e;
+    font-size: 17px;
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 30px;
+    }
+    #resume-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    fieldset {
+        width: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border: 1px solid #4c78a8;
+    }
+
+    button {
+        width: 255px;
+    }
+
+    button b {
+        font-size: 18px;
+    }
+}
